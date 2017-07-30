@@ -1,6 +1,6 @@
-#Information Retrieval
-##Programming Task 
-###Command Line Information Retrieval system using Apache Lucene.
+# Information Retrieval
+## Programming Task 
+### Command Line Information Retrieval system using Apache Lucene.
 
 How to run the code :
 Programme is coded in a way that it can be run just by passing the path of the directory having the files to be indexed. There is no need to look into the code or change any parameter for the code.
@@ -40,7 +40,7 @@ Code consist of following classes , structure and working of classes will be dis
 +	Searcher.java
 	
 	
-**LuceneMain.java (Main Class) : **
+**LuceneMain.java (Main Class) :**
 	This is the main class which will in turn call the other class for the respective functions.This class will have basic validations for the query searched and path provided .On the basis of the input from user(Exit/Indexin/Search) respective class will be called and corresponding function will be preformed.Ranking of the documents will be done on the rank score and will be listed according to the rank.
 	
 **FileTypeFilter.java :**
